@@ -1,8 +1,8 @@
 CFLAGS=-Wall -ansi -pedantic
 
-sizeof: sizeof.o
-sizeof.o: sizeof.c
+main: main.o
+main.o: main.c
 
 .PHONY: clean
 clean:
-	rm -f *.o sizeof
+	rm -f *.o sizeof main
