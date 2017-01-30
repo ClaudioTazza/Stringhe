@@ -13,8 +13,8 @@ int main(){
   numD = (double)num;
   printf("double: %lf\n", numD);
 
-  sprintf( v, "%lf", numD);
-  puts( v );
+  sprintf( v, "%0.2lf", numD);
+  printf("Stringa: %s\n", v);
 
   return 0;
 }
