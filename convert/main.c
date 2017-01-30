@@ -5,14 +5,15 @@
 int main(){
   char v[] = "243";
   int num;
+  double numD;
 
   num = atoi(v);
   printf("int: %d\n", num);
 
-  num = (double)num;
-  printf("double: %lf\n", num);
+  numD = (double)num;
+  printf("double: %lf\n", numD);
 
-  sprintf( v, "%lf", num);
+  sprintf( v, "%lf", numD);
   puts( v );
 
   return 0;
