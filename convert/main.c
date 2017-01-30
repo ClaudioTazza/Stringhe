@@ -12,7 +12,7 @@ int main(){
   num = (double)num;
   printf("double: %lf\n", num);
 
-  sprintf( v, "%d", num);
+  sprintf( v, "%lf", num);
   puts( v );
 
   return 0;
