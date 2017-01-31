@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(){
-  char v[50] = "243";
+  char v[10] = "243";
   int num;
   double numD;
 
