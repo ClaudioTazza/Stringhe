@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(){
-  char v[] = "243";
+  char v[50] = "243";
   int num;
   double numD;
 
@@ -13,7 +13,7 @@ int main(){
   numD = (double)num;
   printf("double: %lf\n", numD);
 
-  sprintf( v, "%0.2lf", numD);
+  sprintf( v, "%lf", numD);
   printf("Stringa: %s\n", v);
 
   return 0;
