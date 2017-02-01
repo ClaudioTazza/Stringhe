@@ -3,11 +3,12 @@
 #include <stdlib.h>
 
 int main(){
-  char v[] = "Ciao ", v2[] = "Mondo";
-  
-  printf("%s\n", strcat(v, v2));
+  char v[] = "Ciao ", v2[] = "Mondo", v3[50] = ""; 
 
-  
+  strcat(v3, v);
+  strcat(v3, v2);
+
+  printf("%s\n", v3);
   
   return 0;
 }
